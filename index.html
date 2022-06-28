@@ -55,7 +55,7 @@
         <section class="hero">
             <div class="container page-hero">
                 <h1 class="hero-heading">Эффективные решения для вашего бизнеса</h1>
-            <button class="hero-button">Заказать услугу</button>
+            <button class="hero-button" data-modal-open>Заказать услугу</button>
             </div>
             
         </section>
@@ -109,12 +109,15 @@
         <ul class="whatwedo-images">
             <li class="whatwedo-image">
          <img src="./image/box1.jpg" alt="1" width="370" height="294">
+         <h3 class="whatwedo-image-text">Десктопные приложения</h3>
             </li>
             <li class="whatwedo-image">
          <img src="./image/box2.jpg" alt="2" width="370" height="294">
+         <h3 class="whatwedo-image-text">Мобильные приложения</h3>
             </li>
             <li class="whatwedo-image">
-         <img src="./image/box3.jpg" alt="3" width="370" height="294">        
+         <img src="./image/box3.jpg" alt="3" width="370" height="294">  
+         <h3 class="whatwedo-image-text">Дизайнерские решения</h3>      
             </li>
         </ul>
     
@@ -394,6 +397,16 @@
        
     </footer>
         
-        
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button class="cross-button" data-modal-close><svg class="cross-icon">
+            <use href="./image/symbol-defs.svg#icon-cross">
+            </use>
+        </svg> </button>
+
+    </div>
+
+</div>
+<script src="./js/modal.js"></script>
 </body>
 </html>
