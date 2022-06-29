@@ -297,17 +297,17 @@ margin-right: 30px;
     
 }
 .whatwedo-image-text{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: center;
     position: absolute;
     bottom: 0;
     width: 100%;
     background-color: rgba(47, 48, 58, 0.8);
-    padding-top: 27px;
-    padding-bottom: 27px;
-
-    font-weight: 700;
+        font-weight: 700;
         font-size: 14px;
         line-height: 16px;
-        text-align: center;
         text-transform: uppercase;
         color: var(--main-background);
 
